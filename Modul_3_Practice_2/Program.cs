@@ -1,12 +1,14 @@
-﻿using System;
-
-namespace Modul_3_Practice_2
+﻿namespace Modul_3_Practice_2
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var td = new Task_Delegate();
+            td.Start();
+
+            var tl = new Task_LINQ();
+            tl.Start();
         }
     }
 }
